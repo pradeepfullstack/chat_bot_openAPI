@@ -25,10 +25,9 @@ A real-time chatbot application that interfaces with OpenAI's API for natural la
 
 ## Project Setup
 
-### Initialize a new Node.js project
+### 
 
-Use the following command to initialize a new Node.js project:
+Use the following command run the application:
 
 ```bash
-npm init -y
-npm install express socket.io mongodb openai
+npm install
