@@ -17,11 +17,13 @@
     <div id="chat-messages"></div>
   </div>
 
-  <!-- Message input, send button, and error div -->
   <div id="input-container">
-    <input type="text" id="message-input" placeholder="Type your message">
-    <button id="send-button">Send</button>
+    <form id="message-form">
+      <input type="text" id="message-input" placeholder="Type your message">
+      <button id="send-button" type="submit">Send</button>
+    </form>
     <div id="error-messages"></div>
+    <div id="loading-indicator" style="display: none;"><img src="2.gif" style="width:24px"/></div>
   </div>
 
   <!-- Scripts -->
